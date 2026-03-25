@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>الرواد للمقاولات | معرض الأعمال</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <i class="fas fa-hard-hat"></i> 
+        <span>الرواد للمقاولات</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="fas fa-home"></i> الرئيسية</a></li>
+        <li><a href="gallery.html" class="active"><i class="fas fa-images"></i> معرض الأعمال</a></li>
+        <li><a href="index.html#contact"><i class="fas fa-phone-alt"></i> اتصل بنا</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- عنوان صفحة المعرض -->
+  <section class="gallery-header">
+    <div class="gallery-header-content">
+      <h1><i class="fas fa-camera-retro"></i> معرض أعمالنا</h1>
+      <p>أحدث المشاريع التي نفذناها بأعلى معايير الجودة والإتقان</p>
+    </div>
+  </section>
+
+  <!-- فلتر المعرض (اختياري) -->
+  <div class="gallery-filter">
+    <button class="filter-btn active" data-filter="all">الكل</button>
+    <button class="filter-btn" data-filter="renovation">ترميم</button>
+    <button class="filter-btn" data-filter="structure">هيكلة إنشائية</button>
+    <button class="filter-btn" data-filter="maintenance">صيانة</button>
+  </div>
+
+  <!-- شبكة المعرض الرئيسية -->
+  <section class="gallery-main">
+    <div class="container-gallery">
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+    <!-- زر تحميل المزيد -->
+    <div class="load-more-container">
+      <button id="loadMoreBtn" class="btn-load-more">تحميل المزيد <i class="fas fa-arrow-down"></i></button>
+    </div>
+  </section>
+
+  <!-- واتساب ثابت -->
+  <div class="whatsapp-float">
+    <a href="https://wa.me/966570587626" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-whatsapp"></i> واتساب
+    </a>
+  </div>
+
+  <!-- تذييل الصفحة -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3><i class="fas fa-building"></i> الرواد للمقاولات</h3>
+        <p>نسعى لتقديم أفضل الحلول الهندسية والمقاولات بجودة عالية وأسعار تنافسية.</p>
+      </div>
+      <div class="footer-col">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="gallery.html">المعرض</a></li>
+          <li><a href="tel:966570587626">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>معلومات الاتصال</h4>
+        <p><i class="fas fa-phone"></i> <a href="tel:966570587626">+966 570587626</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/966570587626" target="_blank">واتساب</a></p>
+        <p><i class="fas fa-envelope"></i> info@alrowad.sa</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 شركة الرواد للمقاولات العامة - جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
