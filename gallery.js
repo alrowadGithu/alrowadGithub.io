@@ -3,7 +3,7 @@
 // قائمة الصور الكاملة مع تصنيفات
 const galleryImages = [
   { src: "p1.jpg", category: "renovation", title: "أحدث التصاميم ", desc: "معمارية وفنية " },
-  { src: "p2.jpg.jpg", category: "structure", title: "هيكلة إنشائية", desc: "تدعيم المنشآت القديمة" },
+  { src: images/"p2.jpg.jpg", category: "structure", title: "هيكلة إنشائية", desc: "تدعيم المنشآت القديمة" },
   { src: "p3.jpg.jpg", category: "maintenance", title: "أعمال حفر ", desc: "  البنية التحتية " },
   { src: "p5.jpg.jpg", category: "renovation", title: "ترميم داخلي", desc: "تشطيبات دقيقة" },
   { src: "p6.jpg.jpg", category: "structure", title: "أعمال خرسانة", desc: "جودة عالية في التنفيذ" },
