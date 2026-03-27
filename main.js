@@ -2,7 +2,7 @@
 
 // قائمة الصور للمعاينة
 const imageList = [
-  "p1.jpg", "p2.jpg.jpg", "p3.jpg.jpg", "p5.jpg.jpg", "p6.jpg.jpg", "p7.jpg.jpg",
+  "p1.jpg.jpg", "p2.jpg.jpg", "p3.jpg.jpg", "p5.jpg.jpg", "p6.jpg.jpg", "p7.jpg.jpg",
   "p8.jpg.jpg", "p9.jpg.jpg", "p10.jpg.jpg", "p11.jpg.jpg", "p12.jpg.jpg", "p13.jpg.jpg",
   "p14.jpg.jpg", "p15.jpg.jpg", "p16.jpg.jpg", "p17.jpg.jpg", "p18.jpg.jpg", "p19.jpg.jpg",
   "p20.jpg.jpg", "p21.jpg.jpg", "p22.jpg.jpg", "p23.jpg.jpg", "p24.jpg.jpg", "p25.jpg.jpg",
@@ -13,8 +13,9 @@ const imageList = [
 const previewContainer = document.getElementById('previewGrid');
 if (previewContainer) {
   const previewImages = imageList.slice(0, 6);
-  previewContainer.innerHTML = previewImages.map(imgSrc =>`    <div class="preview-item">
-      <img src="images/${imgSrc}" alt="مشروع مميز" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200?text=صورة+قريبا'">
+  previewContainer.innerHTML = previewImages.map(imgSrc => `
+    <div class="preview-item">
+      <img src="${imgSrc}" alt="مشروع مميز" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200?text=صورة+قريبا'">
     </div>
   `).join('');
 }
