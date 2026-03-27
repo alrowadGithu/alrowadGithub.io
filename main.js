@@ -15,7 +15,7 @@ if (previewContainer) {
   const previewImages = imageList.slice(0, 6);
   previewContainer.innerHTML = previewImages.map(imgSrc => `
     <div class="preview-item">
-      <img src="images/${imagSrc}" alt="مشروع مميز" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200?text=صورة+قريبا'">
+      <img src="images/${imgSrc}" alt="مشروع مميز" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200?text=صورة+قريبا'">
     </div>
   `).join('');
 }
