@@ -5,7 +5,7 @@ const galleryImages = [
   { src:"images/p1.jpg.jpg", category: "renovation", title: "أحدث التصاميم ", desc: "معمارية وفنية " },
   { src: "p2.jpg.jpg", category: "structure", title: "هيكلة إنشائية", desc: "تدعيم المنشآت القديمة" },
   { src: "p3.jpg.jpg", category: "maintenance", title: "أعمال حفر ", desc: "  البنية التحتية " },
-  { src: "images/p5.jpg.jpg", category: "renovation", title: "ترميم داخلي", desc: "تشطيبات دقيقة" },
+  { src: images/"p5.jpg.jpg", category: "renovation", title: "ترميم داخلي", desc: "تشطيبات دقيقة" },
   { src: "p6.jpg.jpg", category: "structure", title: "أعمال خرسانة", desc: "جودة عالية في التنفيذ" },
   { src: "p7.jpg.jpg", category: "maintenance", title: "أعمال بناء", desc: "أنظمة حديثه" },
   { src: "p8.jpg.jpg", category: "renovation", title: "واجهات حديثه", desc: "تصاميم عصرية" },
