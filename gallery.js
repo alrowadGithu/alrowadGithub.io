@@ -1,7 +1,7 @@
 // gallery.js - وظائف صفحة المعرض
 
 // قائمة الصور الكاملة مع تصنيفات
-const galleryImages = [
+const galleryimages = [
   { src:"p1.jpg.jpg", category: "renovation", title: "أحدث التصاميم ", desc: "معمارية وفنية " },
   { src: "p2.jpg.jpg", category: "structure", title: "هيكلة إنشائية", desc: "تدعيم المنشآت القديمة" },
   { src: "p3.jpg.jpg", category: "maintenance", title: "أعمال حفر ", desc: "  البنية التحتية " },
